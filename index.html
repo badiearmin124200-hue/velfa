@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    >
+
+    <title>VELFA</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- =========================
+             BACKGROUND
+        ========================== -->
+
+        <div class="ambient ambient-1"></div>
+        <div class="ambient ambient-2"></div>
+        <div class="ambient ambient-3"></div>
+
+
+        <!-- =========================
+             TOP BAR
+        ========================== -->
+
+        <header class="topbar">
+
+            <div class="brand">
+                <div class="brand-mark">
+                    V
+                </div>
+
+                <div>
+                    <div class="brand-name">VELFA</div>
+                    <div class="brand-subtitle">
+                        Find your people
+                    </div>
+                </div>
+            </div>
+
+            <button class="icon-btn" id="notificationBtn">
+                <span>♢</span>
+            </button>
+
+        </header>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <main>
+
+            <section class="hero">
+
+                <div class="eyebrow">
+                    <span class="live-dot"></span>
+                    فضای تو، آدم‌های تو
+                </div>
+
+                <h1>
+                    هر چیزی که دوست داری،
+                    <span>باهم.</span>
+                </h1>
+
+                <p>
+                    وارد شو، آدم‌های هم‌سلیقه‌ات رو پیدا کن
+                    و هر چیزی که دوست داری باهم تجربه کنید.
+                </p>
+
+                <button class="primary-btn" id="startBtn">
+                    <span>✦</span>
+                    شروع کنیم
+                    <span class="arrow">←</span>
+                </button>
+
+            </section>
+
+
+            <!-- =========================
+                 LIVE ROOMS
+            ========================== -->
+
+            <section class="section">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-kicker">
+                            LIVE NOW
+                        </span>
+
+                        <h2>
+                            الان توی VELFA
+                        </h2>
+                    </div>
+
+                    <button class="see-all">
+                        همه
+                        <span>←</span>
+                    </button>
+
+                </div>
+
+
+                <div class="rooms">
+
+                    <article class="room-card room-music">
+
+                        <div class="room-top">
+
+                            <div class="room-icon">
+                                ♪
+                            </div>
+
+                            <div class="live-label">
+                                <span></span>
+                                LIVE
+                            </div>
+
+                        </div>
+
+                        <div class="room-content">
+
+                            <h3>
+                                Music Room
+                            </h3>
+
+                            <p>
+                                موزیک گوش میدن
+                            </p>
+
+                            <div class="people">
+
+                                <div class="avatars">
+                                    <span>A</span>
+                                    <span>M</span>
+                                    <span>S</span>
+                                </div>
+
+                                <span>
+                                    +۱۲ نفر
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="room-card room-movie">
+
+                        <div class="room-top">
+
+                            <div class="room-icon">
+                                ▶
+                            </div>
+
+                            <div class="live-label">
+                                <span></span>
+                                LIVE
+                            </div>
+
+                        </div>
+
+                        <div class="room-content">
+
+                            <h3>
+                                Movie Night
+                            </h3>
+
+                            <p>
+                                باهم فیلم میبینن
+                            </p>
+
+                            <div class="people">
+
+                                <div class="avatars">
+
+                                    <span>R</span>
+                                    <span>N</span>
+                                    <span>K</span>
+
+                                </div>
+
+                                <span>
+                                    +۸ نفر
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 EXPLORE
+            ========================== -->
+
+            <section class="section">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="section-kicker">
+                            EXPLORE
+                        </span>
+
+                        <h2>
+                            چی کار کنیم؟
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="explore-grid">
+
+                    <button
+                        class="explore-card music"
+                        data-title="Music"
+                    >
+
+                        <div class="explore-symbol">
+                            ♪
+                        </div>
+
+                        <div>
+                            <strong>
+                                Music
+                            </strong>
+
+                            <small>
+                                باهم موزیک گوش بدین
+                            </small>
+                        </div>
+
+                        <span class="card-arrow">
+                            ←
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="explore-card movie"
+                        data-title="Movie"
+                    >
+
+                        <div class="explore-symbol">
+                            ▶
+                        </div>
+
+                        <div>
+                            <strong>
+                                Movie
+                            </strong>
+
+                            <small>
+                                باهم فیلم ببینید
+                            </small>
+                        </div>
+
+                        <span class="card-arrow">
+                            ←
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="explore-card games"
+                        data-title="Games"
+                    >
+
+                        <div class="explore-symbol">
+                            ✦
+                        </div>
+
+                        <div>
+                            <strong>
+                                Games
+                            </strong>
+
+                            <small>
+                                یه بازی شروع کنید
+                            </small>
+                        </div>
+
+                        <span class="card-arrow">
+                            ←
+                        </span>
+
+                    </button>
+
+
+                    <button
+                        class="explore-card study"
+                        data-title="Study"
+                    >
+
+                        <div class="explore-symbol">
+                            ✎
+                        </div>
+
+                        <div>
+                            <strong>
+                                Study
+                            </strong>
+
+                            <small>
+                                باهم درس بخونید
+                            </small>
+                        </div>
+
+                        <span class="card-arrow">
+                            ←
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 PEOPLE
+            ========================== -->
+
+            <section class="people-section">
+
+                <div class="people-copy">
+
+                    <span class="section-kicker">
+                        YOUR PEOPLE
+                    </span>
+
+                    <h2>
+                        آدم‌هایی که
+                        <span>شبیه تو</span>
+                        فکر می‌کنن.
+                    </h2>
+
+                    <p>
+                        سلیقه‌هات رو انتخاب کن و آدم‌هایی
+                        با علایق مشابه رو پیدا کن.
+                    </p>
+
+                    <button
+                        class="outline-btn"
+                        id="findPeopleBtn"
+                    >
+                        پیدا کردن آدم‌ها
+                        <span>←</span>
+                    </button>
+
+                </div>
+
+
+                <div class="people-visual">
+
+                    <div class="orbit orbit-1"></div>
+                    <div class="orbit orbit-2"></div>
+                    <div class="orbit orbit-3"></div>
+
+                    <div class="center-person">
+                        V
+                    </div>
+
+                    <div class="floating-person p1">
+                        A
+                    </div>
+
+                    <div class="floating-person p2">
+                        M
+                    </div>
+
+                    <div class="floating-person p3">
+                        S
+                    </div>
+
+                    <div class="floating-person p4">
+                        N
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =========================
+                 VELFA IDEA
+            ========================== -->
+
+            <section class="idea-section">
+
+                <div class="idea-glow"></div>
+
+                <span class="section-kicker">
+                    THIS IS VELFA
+                </span>
+
+                <h2>
+                    اینجا قرار نیست
+                    <br>
+                    تنها باشی.
+                </h2>
+
+                <p>
+                    یه فضا برای وقت گذروندن،
+                    کشف کردن، خندیدن و پیدا کردن آدم‌های خودت.
+                </p>
+
+                <div class="idea-tags">
+
+                    <span>Music</span>
+                    <span>Movies</span>
+                    <span>Games</span>
+                    <span>Study</span>
+                    <span>People</span>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- =========================
+             BOTTOM NAV
+        ========================== -->
+
+        <nav class="bottom-nav">
+
+            <button
+                class="nav-item active"
+                data-section="home"
+            >
+                <span>⌂</span>
+                <small>Home</small>
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="explore"
+            >
+                <span>⌕</span>
+                <small>Explore</small>
+            </button>
+
+            <button
+                class="nav-create"
+                id="createBtn"
+            >
+                +
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="people"
+            >
+                <span>♧</span>
+                <small>People</small>
+            </button>
+
+            <button
+                class="nav-item"
+                data-section="profile"
+            >
+                <span>◯</span>
+                <small>Profile</small>
+            </button>
+
+        </nav>
+
+
+        <!-- =========================
+             TOAST
+        ========================== -->
+
+        <div
+            class="toast"
+            id="toast"
+        >
+            <span>✦</span>
+            <span id="toastText">
+                Coming soon
+            </span>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js?63"></script>
+
+</body>
+</html>
